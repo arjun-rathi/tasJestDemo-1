@@ -1,13 +1,12 @@
 {
   "name": "myunittest",
-  
   "version": "1.0.0",
   "description": "",
   "main": "calculator.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "Himanshi",
+  "author": "Anmol",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.3.1",
