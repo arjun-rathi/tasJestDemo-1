@@ -34,6 +34,7 @@ test("nmew test", () => {
     expect(getAboutUsLink("es-ES")).toBe("/acerca-de");
 });
 
+//Updated the variable in secrets
 test("Added by arjun", () => {
     expect(getAboutUsLink(process.env.ENGLISHCODE)).toBe("/about-us");
 });
