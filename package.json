@@ -1,7 +1,6 @@
 {
   "name": "myunittest",
   "version": "1.0.0",
-  "description": "",
   "main": "calculator.js",
   "scripts": {
     "test": "jest"
