@@ -1,6 +1,7 @@
 const { add, mul, sub, div, modu } = require('./arith');
 
-// Updated secrets value for this test case
+// Updated secrets value for this test case - wrong value was added last time
+
 test('2 + 3 = 5', () => {
   expect(add(2, parseInt(process.env.INTVALUE))).toBe(5);
 });
