@@ -54,3 +54,9 @@ test('New test case 15 Jan 2023', () => {
     const result = number % 2;
     expect(result).toBe(1);
 });
+
+test('New test 10 May 2023', () => {
+    const number = Math.floor(Math.random() * 25);
+    const result = number % 2;
+    expect(result).toBe(1);
+});
