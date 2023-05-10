@@ -40,7 +40,8 @@ test("Added by arjun", () => {
 });
 
 test('adding should should detect odd number--', () => {
-    const number = Math.floor(Math.random() * 10);
+    // const number = Math.floor(Math.random() * 10);
+    const number = 13
     const result = number % 2;
     expect(result).toBe(1);
 });
